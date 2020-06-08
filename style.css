@@ -5,6 +5,9 @@ body,h1,h2,h3,menu {
 li {
     list-style-type: none;
 }
+menu:first-child {
+    display: none;
+}
 a {
     text-decoration: none;
     color: black;
@@ -153,6 +156,20 @@ header li:last-child {
     header li:last-child {
         margin-left: 0;
     }
+    menu:first-child {
+        display: flex;
+        width: 100%;
+    }
+    #menu-list {
+        display: none;
+    }
+    menu img {
+        height: 30px;
+    }
+    menu:last-child {
+        display: none;
+    }
+
 }
 
 

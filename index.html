@@ -6,6 +6,7 @@
     <title>Blog</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="menu.js"></script>
 </head>
 <body>
     <header>
@@ -20,6 +21,30 @@
         <li><a href="">Выйти</a></li>
     </header>
     <div id="container">
+        <menu onmouseout="var i;var menu = document.getElementById('menu-list');menu.style.display = 'none';i+=1;if i%2 == 0 {menu.style.display = 'block'}; ">
+            <img src="menu-icon.png" alt="menu" onclick="var menu = document.getElementById('menu-list');menu.style.display = 'block';">
+            <h3>Категории статьей</h3>
+            <div id="menu-list" >            
+                <li>Мобильные телефоны</li>
+                <li>Музыка</li>
+                <li>Программирование</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Эм</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+                <li>Рассказы из личной жизни</li>
+            </div>
+        </menu>
         <article>
             <section>
                 <div class="preview"></div>
